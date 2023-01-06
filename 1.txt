@@ -25,11 +25,11 @@ resource "aws_ecs_task_definition" "ecs_task_definition" {
     "environment": [
       {
         "name": "DB_USERNAME",
-        "value": "${var.db_username}"
+        "value": "${var.bindu}"
       },
       {
         "name": "DB_PASSWORD",
-        "value": "${var.db_password}"
+        "value": "${var.koorma}"
       }
     ]
   }
